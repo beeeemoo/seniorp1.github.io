@@ -1,22 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Senior Project</title>
+    <title>{Your Page Title}</title>
     <style>
         body {
             text-align: center;
             background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
         }
 
-        .title {
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .nav {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        .section h2 {
             font-size: 24px;
-            margin-top: 50px;
         }
     </style>
 </head>
 <body>
-    <div class="title">
-        Senoir Project 1 Page
+    <div class="header">
+        <h1>{Your Page Title}</h1>
+        <ul class="nav">
+            <li><a href="#group-members">Group Members</a></li>
+            <li><a href="#project-description">Project Description</a></li>
+            <li><a href="#supervisor">Supervisor</a></li>
+            <li><a href="#jury-members">Jury Members</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="group-members">
+        <h2>Group Members</h2>
+        <ul>
+            <li>{Student 1 Name}</li>
+            <li>{Student 2 Name}</li>
+            <li>{Student 3 Name}</li>
+        </ul>
+    </div>
+
+    <div class="section" id="project-description">
+        <h2>Project Description</h2>
+        <p>
+            {Description of behavior analysis/classification via video images. Add your detailed project description here.}
+        </p>
+    </div>
+
+    <div class="section" id="supervisor">
+        <h2>Supervisor</h2>
+        <p>
+            {Supervisor's Name and Details}
+        </p>
+    </div>
+
+    <div class="section" id="jury-members">
+        <h2>Jury Members</h2>
+        <ul>
+            <li>{Jury Member 1 Name}</li>
+            <li>{Jury Member 2 Name}</li>
+            <li>{Jury Member 3 Name}</li>
+        </ul>
     </div>
 </body>
 </html>
