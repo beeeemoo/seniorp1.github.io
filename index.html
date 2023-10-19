@@ -72,6 +72,21 @@
             list-style-type: square;
             padding-left: 20px;
         }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .team-member img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        .team-member p {
+            font-size: 18px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -114,11 +129,15 @@ The project will involve training machine learning models to process and classif
 
     <div class="section" id="jury-members">
         <h2>Jury Members</h2>
-        <ul>
-            <li>{Jury Member 1 Name}</li>
-            <li>{Jury Member 2 Name}</li>
-            <li>{Jury Member 3 Name}</li>
-        </ul>
+        <div class="team-member">
+            <img src="jury_member1.jpg" alt="Jury Member 1's Image">
+            <p>Jury Member 1 Name</p>
+        </div>
+        <div class="team-member">
+            <img src="jury_member2.jpg" alt="Jury Member 2's Image">
+            <p>Jury Member 2 Name</p>
+        </div>
     </div>
+    
 </body>
 </html>
